@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+
+<root>
+
+  <mode
+    onlyCompile="false"
+    gameInit="true"
+    consoleCMD="true"
+    >
+  </mode>
+
+  <irrlich
+      driverType="EDT_DIRECT3D9"
+      screenSize="800,600"
+      bits="32"
+      fullScreen="true"
+      stencilBuffer="false"
+      vsync="false"
+      mouseVisible="false"
+      workingDirectory="../../res"
+      >
+  </irrlich>
+
+  <irrklang
+    soundMinDistance="100"
+    >
+  </irrklang>
+
+  <XMLFiles
+    herofileName="Character/Hero/hero.xml"
+    zombiefileName="Character/Zombie/zombie.xml"
+    HL2zombiefileName="Character/HL2Zombie/HL2zombie.xml"
+    plasmariflefileName="Noncharacter/Weapon/Plasmarifle/plasmarifle.xml"
+    particlefileName="Noncharacter/Particle/particle.xml"
+    stagefileName="stage/stage.xml"
+    soundfileName="System/XML/soundFileList.xml"
+    imagefileName="System/XML/imageFileList.xml"
+    >
+  </XMLFiles>
+
+  <scene
+    heroSceneFileName="Character/Hero/hero.irr"
+    heroSceneName="usr/scene/hero"
+    
+    zombieSceneFileName="Character/Zombie/zombie.irr"
+    zombieSceneName="usr/scene/zombie"
+    
+    HL2zombieSceneFileName="Character/HL2Zombie/HL2zombie.irr"
+    HL2zombieSceneName="usr/scene/HL2zombie"
+    
+    stageSceneFileName="stage/stage0.irr"
+    stageSceneName="usr/scene/stage0"
+    stagePhysicName="stage"
+    
+    plasmarifleSceneFileName="Noncharacter/Weapon/Plasmarifle/plasmarifle.irr"
+    plasmarifleSceneName="usr/scene/weapon/plasmarifle"
+    >
+  </scene>
+
+  <gamedata
+    respawnTimeMin="2"
+    respawnTimeMam="5"
+    >
+  </gamedata>
+    
+
+</root>

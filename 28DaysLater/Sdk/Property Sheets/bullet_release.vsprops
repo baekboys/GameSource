@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601-1987"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="bullet_release"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalOptions="/I &quot;..\sdk\bullet\src&quot; &#x0D;&#x0A;/I &quot;..\sdk\bullet\Extras&quot; &#x0D;&#x0A;/I &quot;..\sdk\bullet\Extras\GIMPACT\include&quot; &#x0D;&#x0A;/I &quot;..\sdk\bullet\Extras\GIMPACT\include\GIMPACT\Bullet&quot; "
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="libbulletopenglsupport.lib libbulletmath.lib libbulletdynamics.lib libbulletsoftbody.lib libbulletcollision.lib libGIMPACT.lib libGIMPACTUtils.lib"
+		AdditionalLibraryDirectories="..\sdk\bullet\out\release8\libs"
+	/>
+</VisualStudioPropertySheet>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+
+<root>
+
+  <spec
+    hp="250"
+    moveVelocity="800"
+    runVelocity="1100"
+    runDurationTime="10000"
+    runRecovery_stand="0.02"
+    runRecovery_move="0.01"
+    minDamage="30"
+    maxDamage="60"
+    minStandTime="4"
+    maxStandTime="6"
+    minMoveTime="1"
+    maxMoveTime="3"
+    viewLength="0"
+    attackLength="18"
+    >
+  </spec>
+
+  <physic
+    mass="70"
+    friction="100"
+    impulseToHero="1000"
+    >
+  </physic>
+
+  <string
+    typeName="char/enemy/zombie"
+    >
+  </string>
+
+  <booleanl>
+  </booleanl>
+
+</root>

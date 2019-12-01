@@ -1,0 +1,64 @@
+﻿Build started 1/22/2010 오후 2:53:15.
+     1>Project "C:\Users\baek\Desktop\공굴리기 프로젝트\irrEdit\source\plugins\jz3dplugins\jz3dplugins.vcxproj" on node 35 (build target(s)).
+     1>_PrepareForBuild:
+         Creating "Debug\jz3dplugins.unsuccessfulbuild" because "AlwaysCreate" was specified.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(249,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(935,5): warning MSB8012: TargetPath(C:\Users\baek\Desktop\공굴리기 프로젝트\irrEdit\source\plugins\jz3dplugins\..\..\..\plugins\jz3dplugins.dll) does not match the Linker's OutputFile property value (C:\Users\baek\Desktop\공굴리기 프로젝트\irrEdit\plugins\jz3dplugins.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../plugins/jz3dplugins.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../../../sdk/bullet\out\debug8\libs libbulletmath_d.lib libbulletdynamics_d.lib libbulletsoftbody_d.lib libbulletcollision_d.lib libconvexdecomposition_d.lib libGIMPACTUtils_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\jz3dplugins.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\baek\Desktop\공굴리기 프로젝트\irrEdit\plugins\jz3dplugins.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\plugins\jz3dplugins.lib" /MACHINE:X86 /DLL Debug\BulletChracterAnimator.obj
+         Debug\BulletFpsCamAnimator.obj
+         Debug\CBulletAnimatorManager.obj
+         Debug\CBulletObjectAnimator.obj
+         Debug\CBulletPhysicsUtils.obj
+         Debug\CBulletWorldAnimator.obj
+         Debug\BulletPhysicsObjectNode.obj
+         Debug\BulletPhysicsObjPluginNode.obj
+         Debug\BulletPhysicsWorldPluginNode.obj
+         Debug\CABVSceneNode.obj
+         Debug\CollusionMngPluginNode.obj
+         Debug\CylinderSceneNode.obj
+         Debug\EmptyPluginNode.obj
+         Debug\FormatedAnimationNode.obj
+         Debug\JZ3DSceneNodeFactory.obj
+         Debug\main.obj
+         Debug\Plan1x1SceneNode.obj
+         Debug\TiledPlaneNode.obj
+         Debug\TiledPlaneNormalMapNode.obj
+         Debug\jz3dplugins.dll.embed.manifest.res
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\jz3dplugins.dll.embed.manifest" /manifest Debug\jz3dplugins.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\jz3dplugins.dll.embed.manifest.res" Debug\jz3dplugins_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../plugins/jz3dplugins.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../../../sdk/bullet\out\debug8\libs libbulletmath_d.lib libbulletdynamics_d.lib libbulletsoftbody_d.lib libbulletcollision_d.lib libconvexdecomposition_d.lib libGIMPACTUtils_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\jz3dplugins.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\baek\Desktop\공굴리기 프로젝트\irrEdit\plugins\jz3dplugins.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\plugins\jz3dplugins.lib" /MACHINE:X86 /DLL Debug\BulletChracterAnimator.obj
+         Debug\BulletFpsCamAnimator.obj
+         Debug\CBulletAnimatorManager.obj
+         Debug\CBulletObjectAnimator.obj
+         Debug\CBulletPhysicsUtils.obj
+         Debug\CBulletWorldAnimator.obj
+         Debug\BulletPhysicsObjectNode.obj
+         Debug\BulletPhysicsObjPluginNode.obj
+         Debug\BulletPhysicsWorldPluginNode.obj
+         Debug\CABVSceneNode.obj
+         Debug\CollusionMngPluginNode.obj
+         Debug\CylinderSceneNode.obj
+         Debug\EmptyPluginNode.obj
+         Debug\FormatedAnimationNode.obj
+         Debug\JZ3DSceneNodeFactory.obj
+         Debug\main.obj
+         Debug\Plan1x1SceneNode.obj
+         Debug\TiledPlaneNode.obj
+         Debug\TiledPlaneNormalMapNode.obj
+         Debug\jz3dplugins.dll.embed.manifest.res
+         jz3dplugins.vcxproj -> C:\Users\baek\Desktop\공굴리기 프로젝트\irrEdit\source\plugins\jz3dplugins\..\..\..\plugins\jz3dplugins.dll
+       _AfterBuild:
+         Deleting file "Debug\jz3dplugins.unsuccessfulbuild".
+         Touching "Debug\jz3dplugins.lastbuildstate".
+     1>Done Building Project "C:\Users\baek\Desktop\공굴리기 프로젝트\irrEdit\source\plugins\jz3dplugins\jz3dplugins.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.78

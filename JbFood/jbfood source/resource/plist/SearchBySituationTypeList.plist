@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>테마별</key>
+	<dict>
+		<key>데이트</key>
+		<string>A</string>
+		<key>점심</key>
+		<string>B</string>
+		<key>술</key>
+		<string>C</string>
+		<key>배달</key>
+		<string>D</string>
+		<key>아이들</key>
+		<string>E</string>
+		<key>야식</key>
+		<string>F</string>
+		<key>저렴</key>
+		<string>G</string>
+		<key>몸보신</key>
+		<string>H</string>
+		<key>해장</key>
+		<string>I</string>
+		<key>외식</key>
+		<string>J</string>
+		<key>잔치</key>
+		<string>K</string>
+		<key>파티</key>
+		<string>L</string>
+		<key>모임</key>
+		<string>M</string>
+		<key>단체회식</key>
+		<string>N</string>
+		<key>귀빈접대</key>
+		<string>O</string>
+	</dict>
+	<key>인테리어별</key>
+	<dict>
+		<key>이국적</key>
+		<string>A</string>
+		<key>이색적</key>
+		<string>B</string>
+		<key>고전적</key>
+		<string>C</string>
+		<key>실용적</key>
+		<string>D</string>
+		<key>미래형</key>
+		<string>E</string>
+	</dict>
+	<key>가격대별</key>
+	<dict>
+		<key>아주저렴</key>
+		<string>A</string>
+		<key>저렴</key>
+		<string>B</string>
+		<key>보통</key>
+		<string>C</string>
+		<key>약간높음</key>
+		<string>D</string>
+		<key>높음</key>
+		<string>E</string>
+	</dict>
+	<key>분위기별</key>
+	<dict>
+		<key>조용</key>
+		<string>A</string>
+		<key>경쾌</key>
+		<string>B</string>
+		<key>시끌벅적</key>
+		<string>C</string>
+		<key>편안</key>
+		<string>D</string>
+	</dict>
+	<key>연령대별</key>
+	<dict>
+		<key>10 대 미만</key>
+		<string>A</string>
+		<key>10~20 대</key>
+		<string>B</string>
+		<key>20~30 대</key>
+		<string>C</string>
+		<key>30~40 대</key>
+		<string>D</string>
+		<key>40~50 대</key>
+		<string>E</string>
+		<key>50~60 대</key>
+		<string>F</string>
+		<key>60 대 이상</key>
+		<string>G</string>
+		<key>다양함</key>
+		<string>H</string>
+	</dict>
+</dict>
+</plist>

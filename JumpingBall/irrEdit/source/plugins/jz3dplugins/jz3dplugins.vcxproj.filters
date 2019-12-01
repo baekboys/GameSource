@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{56e001b0-2e30-4b38-a233-5e07dba17313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\bulletanimator">
+      <UniqueIdentifier>{8f7503aa-1cb3-479d-a6fb-fc116a94465e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Sdk\irrBullet\BulletChracterAnimator.cpp">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Sdk\irrBullet\BulletFpsCamAnimator.cpp">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Sdk\irrBullet\CBulletAnimatorManager.cpp">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Sdk\irrBullet\CBulletObjectAnimator.cpp">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Sdk\irrBullet\CBulletPhysicsUtils.cpp">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Sdk\irrBullet\CBulletWorldAnimator.cpp">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPhysicsObjectNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPhysicsObjPluginNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPhysicsWorldPluginNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CABVSceneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollusionMngPluginNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderSceneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyPluginNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormatedAnimationNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JZ3DSceneNodeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plan1x1SceneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledPlaneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledPlaneNormalMapNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Sdk\irrBullet\BulletChracterAnimator.h">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Sdk\irrBullet\BulletFpsCamAnimator.h">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Sdk\irrBullet\CBulletAnimatorManager.h">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Sdk\irrBullet\CBulletObjectAnimator.h">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Sdk\irrBullet\CBulletPhysicsUtils.h">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Sdk\irrBullet\CBulletWorldAnimator.h">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Sdk\irrBullet\CFollowAnimator.h">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Sdk\irrBullet\CThirdPersonAnimator.h">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Sdk\irrBullet\CThirdPersonFollowAnimator.h">
+      <Filter>sdk\bulletanimator</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsObjectNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsObjPluginNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsWorldPluginNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CABVSceneNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollusionMngPluginNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderSceneNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyPluginNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatedAnimationNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jz3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JZ3DSceneNodeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plan1x1SceneNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledPlaneNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledPlaneNormalMapNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

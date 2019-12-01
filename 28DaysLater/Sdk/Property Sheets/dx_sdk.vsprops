@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ks_c_5601-1987"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="dx_sdk"
+	>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="dxerr.lib dxguid.lib d3dx9d.lib d3dx10d.lib d3d9.lib winmm.lib comctl32.lib"
+	/>
+</VisualStudioPropertySheet>

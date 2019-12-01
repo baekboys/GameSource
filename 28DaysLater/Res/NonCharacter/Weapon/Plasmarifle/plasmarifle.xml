@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+
+<root>
+
+  <spec
+    weaponType="2"
+    minDamage="35"
+    maxDamage="40"
+    maxShellcount="300"
+    maxReloadCount="50"
+    
+    coolTime="0.11"
+    aimAccuracy="70"
+    maxZoomAngle="5"
+    minZoomAngle="20"
+    basicZoomangle="72"
+    
+    zoomSpeedValue="2.2"
+    flashSizeH="6"
+    flashSizeV="6"
+    flashDurationTime="0.03"
+    reactionVerticalAngle="1.0"
+    
+    reactionHorizontalAngle="0.5"
+    recoveryAngle="2.7"
+    ligthRadius="200.f"
+    lightAmbientColorR="0"
+    lightAmbientColorG="0"
+    lightAmbientColorB="0"
+    lightPositionX="0"
+    lightPositionY="0"
+    lightPositionZ="50"
+    >
+  </spec>
+
+  <physic
+    mass="3.5"
+    friction="10"
+    impulseToEnemy="200"
+    impulseToHero="100"
+    shell_mass="0.2f"
+    shell_friction="0.2f"
+    shell_radius="0.1f"
+    shell_length="0.5f"
+    shell_color_R="128"
+    shell_color_G="128"
+    shell_color_B="0"
+    shell_rpos_x="2"
+    shell_rpos_y="-2"
+    shell_rpos_z="7"
+    shell_force="5"
+    shell_durationTime="3"
+    >
+  </physic>
+
+  <string
+    typeName="nonchar/weapon/plasmarifle"
+    >
+  </string>
+
+  <booleanl>
+  </booleanl>
+
+</root>

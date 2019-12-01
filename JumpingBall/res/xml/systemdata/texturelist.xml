@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+  <textureList
+    ball_basic="texture/ball_basic.png"
+    ball_beach="texture/ball_beach.png"
+    ball_iron="texture/ball_iron.png"
+    ball_tennis="texture/ball_tennis.png"
+    ball_wood="texture/ball_wood.png"
+    
+    start_arrow="texture/startarrow.png"
+    end_arrow="texture/endarrow.png"
+    
+    title="background/title.jpg"
+    background_image="background/background1.jpg"
+    
+    allclear="gui/allclear.png"
+    allclear_button="gui/allclearbutton.png"
+    
+    mainmenu="gui/mainmenu.png"
+    restart="gui/restart.png"
+    jump="gui/jump.png"
+    zoom="gui/zoom.png"
+    
+    clear="gui/clear.png"
+    failed="gui/failed.png"
+    yes="gui/yes.png"
+    no="gui/no.png"
+    >
+  </textureList>
+
+</root>

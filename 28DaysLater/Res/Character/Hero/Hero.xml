@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+
+<root>
+  
+  <spec
+    hp="500"
+    moveVelocity="1700"
+    runVelocity="3400"
+    runDurationTime="100.0"
+    runRecovery_stand="0.005"
+    runRecovery_move="0.002"
+    farValue="1000"
+    >
+  </spec>
+
+  <physic
+    mass="70"
+    friction="1"
+    >
+  </physic>
+
+  <string
+    typeName="char/hero"
+    >
+  </string>
+
+  <booleanl>
+  </booleanl>
+  
+</root>

@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1498E37012B85886002F6A70 /* ARRestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498E36E12B85886002F6A70 /* ARRestaurantViewController.m */; };
+		1498E37112B85886002F6A70 /* ARRestaurantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1498E36F12B85886002F6A70 /* ARRestaurantViewController.xib */; };
+		14ADA01312BB038300F2FA49 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 14ADA01112BB038300F2FA49 /* Restaurant.m */; };
+		14ADA30612BB649300F2FA49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ADA30512BB649300F2FA49 /* QuartzCore.framework */; };
+		14C037B012C9EA3F003791C8 /* SingleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C037AE12C9EA3F003791C8 /* SingleMapViewController.m */; };
+		14C037B112C9EA3F003791C8 /* SingleMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14C037AF12C9EA3F003791C8 /* SingleMapViewController.xib */; };
+		14C037BA12C9EA71003791C8 /* MapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C037B912C9EA71003791C8 /* MapLocation.m */; };
+		14C2B3F012C0634D0034C33C /* RestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C2B3EB12C0634D0034C33C /* RestaurantViewController.m */; };
+		14C2B3F112C0634D0034C33C /* RestaurantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14C2B3EC12C0634D0034C33C /* RestaurantViewController.xib */; };
+		14F607CB12B88884007CFDBF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F607CA12B88884007CFDBF /* CoreLocation.framework */; };
+		14F607CD12B88884007CFDBF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F607CC12B88884007CFDBF /* MapKit.framework */; };
+		1D3623260D0F684500981E51 /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ARAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ARViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ARViewController.m */; };
+		EEA74BE512E55D320030D620 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA74BE012E55D320030D620 /* FMDatabase.m */; };
+		EEA74BE612E55D320030D620 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA74BE212E55D320030D620 /* FMDatabaseAdditions.m */; };
+		EEA74BE712E55D320030D620 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA74BE412E55D320030D620 /* FMResultSet.m */; };
+		EEA74BEC12E55D500030D620 /* SQLiteDatabaseConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA74BE912E55D500030D620 /* SQLiteDatabaseConnector.m */; };
+		EEA74BED12E55D500030D620 /* SQLiteDB.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA74BEB12E55D500030D620 /* SQLiteDB.m */; };
+		EEA74BF112E55D7F0030D620 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA74BF012E55D7F0030D620 /* libsqlite3.0.dylib */; };
+		EEA74BFB12E55D980030D620 /* ImageReviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA74BF512E55D980030D620 /* ImageReviewCell.m */; };
+		EEA74BFC12E55D980030D620 /* ImageReviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEA74BF612E55D980030D620 /* ImageReviewCell.xib */; };
+		EEA74BFD12E55D980030D620 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA74BF812E55D980030D620 /* InfoCell.m */; };
+		EEA74BFE12E55D980030D620 /* RecommendationMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA74BFA12E55D980030D620 /* RecommendationMenu.m */; };
+		EEBADCA812C71DF700EE4883 /* DatabaseConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBADCA712C71DF700EE4883 /* DatabaseConnector.m */; };
+		EEBADCB512C71E0B00EE4883 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBADCAC12C71E0B00EE4883 /* NSObject+SBJSON.m */; };
+		EEBADCB612C71E0B00EE4883 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBADCAE12C71E0B00EE4883 /* NSString+SBJSON.m */; };
+		EEBADCB712C71E0B00EE4883 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBADCB012C71E0B00EE4883 /* SBJsonBase.m */; };
+		EEBADCB812C71E0B00EE4883 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBADCB212C71E0B00EE4883 /* SBJsonParser.m */; };
+		EEBADCB912C71E0B00EE4883 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBADCB412C71E0B00EE4883 /* SBJsonWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1498E36D12B85886002F6A70 /* ARRestaurantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARRestaurantViewController.h; sourceTree = "<group>"; };
+		1498E36E12B85886002F6A70 /* ARRestaurantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARRestaurantViewController.m; sourceTree = "<group>"; };
+		1498E36F12B85886002F6A70 /* ARRestaurantViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARRestaurantViewController.xib; sourceTree = "<group>"; };
+		14ADA01112BB038300F2FA49 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Restaurant.m; path = ../Restaurant/Classes/Restaurant.m; sourceTree = SOURCE_ROOT; };
+		14ADA0EC12BB254400F2FA49 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Restaurant.h; path = ../Restaurant/Classes/Restaurant.h; sourceTree = SOURCE_ROOT; };
+		14ADA30512BB649300F2FA49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14C037AD12C9EA3F003791C8 /* SingleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleMapViewController.h; path = ../SingleMap/Classes/SingleMapViewController.h; sourceTree = SOURCE_ROOT; };
+		14C037AE12C9EA3F003791C8 /* SingleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleMapViewController.m; path = ../SingleMap/Classes/SingleMapViewController.m; sourceTree = SOURCE_ROOT; };
+		14C037AF12C9EA3F003791C8 /* SingleMapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SingleMapViewController.xib; path = ../SingleMap/Classes/SingleMapViewController.xib; sourceTree = SOURCE_ROOT; };
+		14C037B812C9EA71003791C8 /* MapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocation.h; sourceTree = "<group>"; };
+		14C037B912C9EA71003791C8 /* MapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocation.m; sourceTree = "<group>"; };
+		14C2B3EA12C0634D0034C33C /* RestaurantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestaurantViewController.h; path = ../Restaurant/Classes/RestaurantViewController.h; sourceTree = SOURCE_ROOT; };
+		14C2B3EB12C0634D0034C33C /* RestaurantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestaurantViewController.m; path = ../Restaurant/Classes/RestaurantViewController.m; sourceTree = SOURCE_ROOT; };
+		14C2B3EC12C0634D0034C33C /* RestaurantViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RestaurantViewController.xib; path = ../Restaurant/Classes/RestaurantViewController.xib; sourceTree = SOURCE_ROOT; };
+		14F607CA12B88884007CFDBF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14F607CC12B88884007CFDBF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ARAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ARAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* ARViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* AR_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AR_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* AR-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AR-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		EEA74BDF12E55D320030D620 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		EEA74BE012E55D320030D620 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		EEA74BE112E55D320030D620 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		EEA74BE212E55D320030D620 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		EEA74BE312E55D320030D620 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		EEA74BE412E55D320030D620 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		EEA74BE812E55D500030D620 /* SQLiteDatabaseConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLiteDatabaseConnector.h; path = ../DataBase/Classes/SQLiteDatabaseConnector.h; sourceTree = SOURCE_ROOT; };
+		EEA74BE912E55D500030D620 /* SQLiteDatabaseConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLiteDatabaseConnector.m; path = ../DataBase/Classes/SQLiteDatabaseConnector.m; sourceTree = SOURCE_ROOT; };
+		EEA74BEA12E55D500030D620 /* SQLiteDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLiteDB.h; path = ../DataBase/Classes/SQLiteDB.h; sourceTree = SOURCE_ROOT; };
+		EEA74BEB12E55D500030D620 /* SQLiteDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLiteDB.m; path = ../DataBase/Classes/SQLiteDB.m; sourceTree = SOURCE_ROOT; };
+		EEA74BF012E55D7F0030D620 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		EEA74BF412E55D980030D620 /* ImageReviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageReviewCell.h; path = ../Restaurant/Classes/ImageReviewCell.h; sourceTree = SOURCE_ROOT; };
+		EEA74BF512E55D980030D620 /* ImageReviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageReviewCell.m; path = ../Restaurant/Classes/ImageReviewCell.m; sourceTree = SOURCE_ROOT; };
+		EEA74BF612E55D980030D620 /* ImageReviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ImageReviewCell.xib; path = ../Restaurant/Classes/ImageReviewCell.xib; sourceTree = SOURCE_ROOT; };
+		EEA74BF712E55D980030D620 /* InfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoCell.h; path = ../Restaurant/Classes/InfoCell.h; sourceTree = SOURCE_ROOT; };
+		EEA74BF812E55D980030D620 /* InfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoCell.m; path = ../Restaurant/Classes/InfoCell.m; sourceTree = SOURCE_ROOT; };
+		EEA74BF912E55D980030D620 /* RecommendationMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecommendationMenu.h; path = ../Restaurant/Classes/RecommendationMenu.h; sourceTree = SOURCE_ROOT; };
+		EEA74BFA12E55D980030D620 /* RecommendationMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecommendationMenu.m; path = ../Restaurant/Classes/RecommendationMenu.m; sourceTree = SOURCE_ROOT; };
+		EEBADCA412C71DD700EE4883 /* SHARED_DEFINE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHARED_DEFINE.h; sourceTree = "<group>"; };
+		EEBADCA612C71DF700EE4883 /* DatabaseConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatabaseConnector.h; path = ../DataBase/Classes/DatabaseConnector.h; sourceTree = SOURCE_ROOT; };
+		EEBADCA712C71DF700EE4883 /* DatabaseConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatabaseConnector.m; path = ../DataBase/Classes/DatabaseConnector.m; sourceTree = SOURCE_ROOT; };
+		EEBADCAA12C71E0B00EE4883 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		EEBADCAB12C71E0B00EE4883 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		EEBADCAC12C71E0B00EE4883 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		EEBADCAD12C71E0B00EE4883 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		EEBADCAE12C71E0B00EE4883 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		EEBADCAF12C71E0B00EE4883 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		EEBADCB012C71E0B00EE4883 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		EEBADCB112C71E0B00EE4883 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		EEBADCB212C71E0B00EE4883 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		EEBADCB312C71E0B00EE4883 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		EEBADCB412C71E0B00EE4883 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				14F607CB12B88884007CFDBF /* CoreLocation.framework in Frameworks */,
+				14F607CD12B88884007CFDBF /* MapKit.framework in Frameworks */,
+				14ADA30612BB649300F2FA49 /* QuartzCore.framework in Frameworks */,
+				EEA74BF112E55D7F0030D620 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1498E36D12B85886002F6A70 /* ARRestaurantViewController.h */,
+				1498E36E12B85886002F6A70 /* ARRestaurantViewController.m */,
+				1498E36F12B85886002F6A70 /* ARRestaurantViewController.xib */,
+				1D3623240D0F684500981E51 /* ARAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ARAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* ARViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* ARViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		14ADA00F12BB030100F2FA49 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				EEA74BF412E55D980030D620 /* ImageReviewCell.h */,
+				EEA74BF512E55D980030D620 /* ImageReviewCell.m */,
+				EEA74BF612E55D980030D620 /* ImageReviewCell.xib */,
+				EEA74BF712E55D980030D620 /* InfoCell.h */,
+				EEA74BF812E55D980030D620 /* InfoCell.m */,
+				EEA74BF912E55D980030D620 /* RecommendationMenu.h */,
+				EEA74BFA12E55D980030D620 /* RecommendationMenu.m */,
+				14C2B3EA12C0634D0034C33C /* RestaurantViewController.h */,
+				14C2B3EB12C0634D0034C33C /* RestaurantViewController.m */,
+				14C2B3EC12C0634D0034C33C /* RestaurantViewController.xib */,
+				14ADA0EC12BB254400F2FA49 /* Restaurant.h */,
+				14ADA01112BB038300F2FA49 /* Restaurant.m */,
+			);
+			name = Restaurant;
+			sourceTree = "<group>";
+		};
+		14C037AC12C9EA27003791C8 /* SigleMap */ = {
+			isa = PBXGroup;
+			children = (
+				14C037AD12C9EA3F003791C8 /* SingleMapViewController.h */,
+				14C037AE12C9EA3F003791C8 /* SingleMapViewController.m */,
+				14C037AF12C9EA3F003791C8 /* SingleMapViewController.xib */,
+			);
+			name = SigleMap;
+			sourceTree = "<group>";
+		};
+		14C037B712C9EA71003791C8 /* MapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				14C037B812C9EA71003791C8 /* MapLocation.h */,
+				14C037B912C9EA71003791C8 /* MapLocation.m */,
+			);
+			name = MapLocation;
+			path = ../MapLocation;
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* AR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EEA74BDE12E55D320030D620 /* fmdb */,
+				14C037B712C9EA71003791C8 /* MapLocation */,
+				14C037AC12C9EA27003791C8 /* SigleMap */,
+				EEBADCA912C71E0B00EE4883 /* JSONPaser */,
+				EEBADCA512C71DDA00EE4883 /* DatabaseConnector */,
+				EEBADCA312C71DD700EE4883 /* DEFINE */,
+				14ADA00F12BB030100F2FA49 /* Restaurant */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* AR_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* ARViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* AR-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				14F607CA12B88884007CFDBF /* CoreLocation.framework */,
+				14F607CC12B88884007CFDBF /* MapKit.framework */,
+				14ADA30512BB649300F2FA49 /* QuartzCore.framework */,
+				EEA74BF012E55D7F0030D620 /* libsqlite3.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEA74BDE12E55D320030D620 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				EEA74BDF12E55D320030D620 /* FMDatabase.h */,
+				EEA74BE012E55D320030D620 /* FMDatabase.m */,
+				EEA74BE112E55D320030D620 /* FMDatabaseAdditions.h */,
+				EEA74BE212E55D320030D620 /* FMDatabaseAdditions.m */,
+				EEA74BE312E55D320030D620 /* FMResultSet.h */,
+				EEA74BE412E55D320030D620 /* FMResultSet.m */,
+			);
+			name = fmdb;
+			path = ../SDKs/fmdb;
+			sourceTree = SOURCE_ROOT;
+		};
+		EEBADCA312C71DD700EE4883 /* DEFINE */ = {
+			isa = PBXGroup;
+			children = (
+				EEBADCA412C71DD700EE4883 /* SHARED_DEFINE.h */,
+			);
+			name = DEFINE;
+			path = ../DEFINE;
+			sourceTree = SOURCE_ROOT;
+		};
+		EEBADCA512C71DDA00EE4883 /* DatabaseConnector */ = {
+			isa = PBXGroup;
+			children = (
+				EEA74BE812E55D500030D620 /* SQLiteDatabaseConnector.h */,
+				EEA74BE912E55D500030D620 /* SQLiteDatabaseConnector.m */,
+				EEA74BEA12E55D500030D620 /* SQLiteDB.h */,
+				EEA74BEB12E55D500030D620 /* SQLiteDB.m */,
+				EEBADCA612C71DF700EE4883 /* DatabaseConnector.h */,
+				EEBADCA712C71DF700EE4883 /* DatabaseConnector.m */,
+			);
+			name = DatabaseConnector;
+			sourceTree = "<group>";
+		};
+		EEBADCA912C71E0B00EE4883 /* JSONPaser */ = {
+			isa = PBXGroup;
+			children = (
+				EEBADCAA12C71E0B00EE4883 /* JSON.h */,
+				EEBADCAB12C71E0B00EE4883 /* NSObject+SBJSON.h */,
+				EEBADCAC12C71E0B00EE4883 /* NSObject+SBJSON.m */,
+				EEBADCAD12C71E0B00EE4883 /* NSString+SBJSON.h */,
+				EEBADCAE12C71E0B00EE4883 /* NSString+SBJSON.m */,
+				EEBADCAF12C71E0B00EE4883 /* SBJsonBase.h */,
+				EEBADCB012C71E0B00EE4883 /* SBJsonBase.m */,
+				EEBADCB112C71E0B00EE4883 /* SBJsonParser.h */,
+				EEBADCB212C71E0B00EE4883 /* SBJsonParser.m */,
+				EEBADCB312C71E0B00EE4883 /* SBJsonWriter.h */,
+				EEBADCB412C71E0B00EE4883 /* SBJsonWriter.m */,
+			);
+			name = JSONPaser;
+			path = ../SDKs/JSONPaser;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AR" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AR;
+			productName = AR;
+			productReference = 1D6058910D05DD3D006BFB54 /* AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AR" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* AR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* ARViewController.xib in Resources */,
+				1498E37112B85886002F6A70 /* ARRestaurantViewController.xib in Resources */,
+				14C2B3F112C0634D0034C33C /* RestaurantViewController.xib in Resources */,
+				14C037B112C9EA3F003791C8 /* SingleMapViewController.xib in Resources */,
+				EEA74BFC12E55D980030D620 /* ImageReviewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ARAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* ARViewController.m in Sources */,
+				1498E37012B85886002F6A70 /* ARRestaurantViewController.m in Sources */,
+				14ADA01312BB038300F2FA49 /* Restaurant.m in Sources */,
+				14C2B3F012C0634D0034C33C /* RestaurantViewController.m in Sources */,
+				EEBADCA812C71DF700EE4883 /* DatabaseConnector.m in Sources */,
+				EEBADCB512C71E0B00EE4883 /* NSObject+SBJSON.m in Sources */,
+				EEBADCB612C71E0B00EE4883 /* NSString+SBJSON.m in Sources */,
+				EEBADCB712C71E0B00EE4883 /* SBJsonBase.m in Sources */,
+				EEBADCB812C71E0B00EE4883 /* SBJsonParser.m in Sources */,
+				EEBADCB912C71E0B00EE4883 /* SBJsonWriter.m in Sources */,
+				14C037B012C9EA3F003791C8 /* SingleMapViewController.m in Sources */,
+				14C037BA12C9EA71003791C8 /* MapLocation.m in Sources */,
+				EEA74BE512E55D320030D620 /* FMDatabase.m in Sources */,
+				EEA74BE612E55D320030D620 /* FMDatabaseAdditions.m in Sources */,
+				EEA74BE712E55D320030D620 /* FMResultSet.m in Sources */,
+				EEA74BEC12E55D500030D620 /* SQLiteDatabaseConnector.m in Sources */,
+				EEA74BED12E55D500030D620 /* SQLiteDB.m in Sources */,
+				EEA74BFB12E55D980030D620 /* ImageReviewCell.m in Sources */,
+				EEA74BFD12E55D980030D620 /* InfoCell.m in Sources */,
+				EEA74BFE12E55D980030D620 /* RecommendationMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Myungsun Baek (C3X9RP4XK8)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AR_Prefix.pch;
+				INFOPLIST_FILE = "AR-Info.plist";
+				PRODUCT_NAME = AR;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D2CC9E1A-2DDB-4AC3-9B70-5757C9A3ECDA";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Myungsun Baek (C3X9RP4XK8)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AR_Prefix.pch;
+				INFOPLIST_FILE = "AR-Info.plist";
+				PRODUCT_NAME = AR;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D2CC9E1A-2DDB-4AC3-9B70-5757C9A3ECDA";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../SDKs/fmdb,
+					../SigleMap/Classes,
+					../SDKs/JSONParser,
+					../DEFINE,
+					../Database/Classes,
+					../Restaurant/Classes,
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../SDKs/fmdb,
+					../SigleMap/Classes,
+					../SDKs/JSONParser,
+					../DEFINE,
+					../Database/Classes,
+					../Restaurant/Classes,
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,189 @@
+// !$*UTF8*$!
+{
+	14C54BB212C97DA00086170D /* SingleMapViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 682}}";
+			sepNavSelRange = "{123, 3}";
+			sepNavVisRange = "{0, 904}";
+		};
+	};
+	14C54BB312C97DA00086170D /* SingleMapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 5434}}";
+			sepNavSelRange = "{3783, 0}";
+			sepNavVisRange = "{9484, 662}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* SingleMap */ = {
+		activeExec = 0;
+		executables = (
+			EEDC404412CA384A000D5063 /* SingleMap */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EEDC404412CA384A000D5063 /* SingleMap */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SingleMap */;
+		breakpoints = (
+		);
+		codeSenseManager = EEDC405B12CA3856000D5063 /* Code sense */;
+		executables = (
+			EEDC404412CA384A000D5063 /* SingleMap */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					779,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					739,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 316865191;
+			PBXWorkspaceStateSaveDate = 316865191;
+		};
+		perUserProjectItems = {
+			EE5BC3C512CA94AC00DEE2C2 /* PBXTextBookmark */ = EE5BC3C512CA94AC00DEE2C2 /* PBXTextBookmark */;
+			EEC3299912E2FB300032D1F1 /* PBXTextBookmark */ = EEC3299912E2FB300032D1F1 /* PBXTextBookmark */;
+			EEC3299A12E2FB300032D1F1 /* PBXTextBookmark */ = EEC3299A12E2FB300032D1F1 /* PBXTextBookmark */;
+			EEC3299B12E2FB300032D1F1 /* PBXTextBookmark */ = EEC3299B12E2FB300032D1F1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = EEDC405A12CA3856000D5063 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	EE57B9F812DAE7AE00729E8E /* MKGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MKGeometry.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKGeometry.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 2444}}";
+			sepNavSelRange = "{663, 126}";
+			sepNavVisRange = "{0, 819}";
+		};
+	};
+	EE5BC3C512CA94AC00DEE2C2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 14C54BB312C97DA00086170D /* SingleMapViewController.m */;
+		name = "SingleMapViewController.m: 384";
+		rLen = 22;
+		rLoc = 9418;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 8584;
+	};
+	EEC3299912E2FB300032D1F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE57B9F812DAE7AE00729E8E /* MKGeometry.h */;
+		name = "MKGeometry.h: 33";
+		rLen = 126;
+		rLoc = 663;
+		rType = 0;
+		vrLen = 819;
+		vrLoc = 0;
+	};
+	EEC3299A12E2FB300032D1F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 14C54BB212C97DA00086170D /* SingleMapViewController.h */;
+		name = "SingleMapViewController.h: 6";
+		rLen = 3;
+		rLoc = 123;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 0;
+	};
+	EEC3299B12E2FB300032D1F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 14C54BB312C97DA00086170D /* SingleMapViewController.m */;
+		name = "SingleMapViewController.m: 142";
+		rLen = 0;
+		rLoc = 3783;
+		rType = 0;
+		vrLen = 662;
+		vrLoc = 9484;
+	};
+	EEDC404412CA384A000D5063 /* SingleMap */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SingleMap;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	EEDC405A12CA3856000D5063 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EEDC405B12CA3856000D5063 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

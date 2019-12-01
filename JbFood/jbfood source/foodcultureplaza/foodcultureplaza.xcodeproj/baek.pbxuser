@@ -1,0 +1,217 @@
+// !$*UTF8*$!
+{
+	14AB063A12C2F65C0014926C /* FoodCulturePlaza */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FoodCulturePlaza;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	14AB064F12C2F66B0014926C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	14AB065012C2F66B0014926C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	14AB069012C2FB130014926C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 14AB069112C2FB130014926C /* UIBarButtonItem.h */;
+		name = "UIBarButtonItem.h: 52";
+		rLen = 68;
+		rLoc = 1380;
+		rType = 0;
+		vrLen = 1689;
+		vrLoc = 38;
+	};
+	14AB069112C2FB130014926C /* UIBarButtonItem.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIBarButtonItem.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIBarButtonItem.h;
+		sourceTree = "<absolute>";
+	};
+	14AB076E12C30EED0014926C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FoodCulturePlazaAppDelegate.m */;
+		name = "FoodCulturePlazaAppDelegate.m: 11";
+		rLen = 0;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 2000;
+		vrLoc = 745;
+	};
+	14AB076F12C30EED0014926C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* FoodCulturePlazaViewController.m */;
+		name = "FoodCulturePlazaViewController.m: 16";
+		rLen = 0;
+		rLoc = 312;
+		rType = 0;
+		vrLen = 851;
+		vrLoc = 0;
+	};
+	14AB08F112C31ED00014926C /* SHARED_DEFINE.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1465, 1066}}";
+			sepNavSelRange = "{404, 0}";
+			sepNavVisRange = "{0, 1318}";
+		};
+	};
+	14AB08F612C31F590014926C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 14AB08F112C31ED00014926C /* SHARED_DEFINE.h */;
+		name = "SHARED_DEFINE.h: 18";
+		rLen = 0;
+		rLoc = 404;
+		rType = 0;
+		vrLen = 1318;
+		vrLoc = 0;
+	};
+	14AB08F712C31F590014926C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FoodCulturePlazaAppDelegate.h */;
+		name = "FoodCulturePlazaAppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 179;
+		rType = 0;
+		vrLen = 524;
+		vrLoc = 0;
+	};
+	14AB08F812C31F590014926C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* FoodCulturePlazaViewController.h */;
+		name = "FoodCulturePlazaViewController.h: 6";
+		rLen = 0;
+		rLoc = 107;
+		rType = 0;
+		vrLen = 860;
+		vrLoc = 0;
+	};
+	14AB090112C31F610014926C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* FoodCulturePlazaViewController.h */;
+		name = "FoodCulturePlazaViewController.h: 11";
+		rLen = 0;
+		rLoc = 175;
+		rType = 0;
+		vrLen = 906;
+		vrLoc = 0;
+	};
+	1D3623240D0F684500981E51 /* FoodCulturePlazaAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1465, 728}}";
+			sepNavSelRange = "{179, 0}";
+			sepNavVisRange = "{0, 524}";
+		};
+	};
+	1D3623250D0F684500981E51 /* FoodCulturePlazaAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1157}}";
+			sepNavSelRange = "{238, 0}";
+			sepNavVisRange = "{745, 2000}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* FoodCulturePlaza */ = {
+		activeExec = 0;
+		executables = (
+			14AB063A12C2F65C0014926C /* FoodCulturePlaza */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* FoodCulturePlazaViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1465, 728}}";
+			sepNavSelRange = "{175, 0}";
+			sepNavVisRange = "{0, 906}";
+			sepNavWindowFrame = "{{68, 370}, {1736, 683}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* FoodCulturePlazaViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1465, 732}}";
+			sepNavSelRange = "{312, 0}";
+			sepNavVisRange = "{0, 851}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 14AB063A12C2F65C0014926C /* FoodCulturePlaza */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FoodCulturePlaza */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FoodCulturePlaza */,
+		);
+		codeSenseManager = 14AB065012C2F66B0014926C /* Code sense */;
+		executables = (
+			14AB063A12C2F65C0014926C /* FoodCulturePlaza */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1287,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 314777268;
+			PBXWorkspaceStateSaveDate = 314777268;
+		};
+		perUserProjectItems = {
+			14AB069012C2FB130014926C /* PBXTextBookmark */ = 14AB069012C2FB130014926C /* PBXTextBookmark */;
+			14AB076E12C30EED0014926C /* PBXTextBookmark */ = 14AB076E12C30EED0014926C /* PBXTextBookmark */;
+			14AB076F12C30EED0014926C /* PBXTextBookmark */ = 14AB076F12C30EED0014926C /* PBXTextBookmark */;
+			14AB08F612C31F590014926C /* PBXTextBookmark */ = 14AB08F612C31F590014926C /* PBXTextBookmark */;
+			14AB08F712C31F590014926C /* PBXTextBookmark */ = 14AB08F712C31F590014926C /* PBXTextBookmark */;
+			14AB08F812C31F590014926C /* PBXTextBookmark */ = 14AB08F812C31F590014926C /* PBXTextBookmark */;
+			14AB090112C31F610014926C /* PBXTextBookmark */ = 14AB090112C31F610014926C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 14AB064F12C2F66B0014926C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

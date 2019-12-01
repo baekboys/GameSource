@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+
+<root>
+
+  <spec
+    radomValueMin="1"
+    radomValueMax="9"
+    radomDivideValue="0.01f"
+    durationTimeMin="0.3f"
+    durationTimeMax="0.5f"
+    sizeMin="0.01f"
+    sizeMax="0.015f"
+    lightRadius="0.1f"
+    numberMin="7"
+    numberMax="10"
+    forceMetal="5"
+    colorRMetal="128"
+    colorGMetal="128"
+    colorBMetal="0"
+    forceBlood="5"
+    colorRBlood="255"
+    colorGBlood="0"
+    colorBBlood="0"
+    >
+  </spec>
+
+  <physic
+    massMetal="0.001f"
+    massBlood="0.005f"
+    friction="0"
+    >
+  </physic>
+
+  <string
+    typeName="nonchar/weapon/plasmarifle"
+    >
+  </string>
+
+  <booleanl>
+  </booleanl>
+
+</root>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" ?>
+
+<root>
+
+  <hero
+    directory="Character/Hero/"
+    footstep="footstep.wav"
+    hurt="hurt.wav"
+    breath="breath.wav"
+    leap="leap.wav"
+    >
+  </hero>
+  
+  <plasmarifle
+    directory="Noncharacter/Weapon/Plasmarifle/"
+    fire="fire.wav"
+    dryfire="dryfire.wav"
+    reload1="reload.wav"
+    realod2="reload2.wav"
+    select="select.wav"
+    zoom="zoom.wav"
+    putaway="putaway.wav"
+    cartrigd="cartrige2.wav"
+    >
+  </plasmarifle>
+
+  <zombie
+    directory="Character/zombie/"
+    attack1="attack1.wav"
+    attack2="attack2.wav"
+    attack3="attack3.wav"
+    attack4="attack4.wav"
+    attack5="attack5.wav"
+    attack6="attack6.wav"
+    attack7="attack7.wav"
+    stand1="stand1.wav"
+    stand2="stand2.wav"
+    stand3="stand3.wav"
+    stand4="stand4.wav"
+    die1="die1.wav"
+    die2="die2.wav"
+    die3="die3.wav"
+    die4="die4.wav"
+    die5="die5.wav"
+    move1="move1.wav"
+    move2="move2.wav"
+    hurt="hurt.wav"
+    head1="excellent.wav"
+    head2="headshot.wav"
+    head3="killingspree.wav"
+    >
+  </zombie>
+
+  <stage
+    directory="Sound/"
+    metal="metal.wav"
+    ball="ball.wav"
+    wood="wood.wav"
+    palin="palin.wav"
+    opendoor="opendoor.wav"
+    closedoor="closedoor.wav"
+    >
+  </stage>
+
+</root>

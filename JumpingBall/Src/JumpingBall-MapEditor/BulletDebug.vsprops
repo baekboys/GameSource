@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601-1987"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="BulletDebug"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalOptions="&#x0D;&#x0A;"
+		AdditionalIncludeDirectories="../../Sdk/bullet/Extras/GIMPACT/include/GIMPACT/Bullet;../../Sdk/bullet/Extras;../../Sdk/bullet/src;../../Sdk/bullet/Extras/GIMPACT/include"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="libbulletmath_d.lib libbulletdynamics_d.lib libbulletsoftbody_d.lib libbulletcollision_d.lib libconvexdecomposition_d.lib libGIMPACTUtils_d.lib"
+		AdditionalLibraryDirectories="../../Sdk/bullet/out/debug8/libs"
+	/>
+</VisualStudioPropertySheet>

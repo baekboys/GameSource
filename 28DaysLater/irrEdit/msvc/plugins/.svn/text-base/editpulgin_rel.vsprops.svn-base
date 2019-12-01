@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ks_c_5601-1987"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="editpulgin_rel"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="../../../source/Irrlicht/include;../../../source/include;../../../source/IrrEditLib/include;../../../../sdk/irr_bullet;../../../../sdk/bullet/src"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="libbulletmath.lib libbulletdynamics.lib libbulletsoftbody.lib libbulletcollision.lib libconvexdecomposition.lib libGIMPACTUtils_d.lib"
+		OutputFile="../../../plugins/$(ProjectName).dll"
+		AdditionalLibraryDirectories="../../../../sdk/bullet\out\release8\libs"
+	/>
+</VisualStudioPropertySheet>

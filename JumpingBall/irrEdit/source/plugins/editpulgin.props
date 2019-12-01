@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.21006.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../Irrlicht/include;../../include;../../IrrEditLib/include;../../../../sdk/irrBullet;../../../../sdk/bullet/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libbulletmath_d.lib;libbulletdynamics_d.lib;libbulletsoftbody_d.lib;libbulletcollision_d.lib;libconvexdecomposition_d.lib;libGIMPACTUtils_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../plugins/$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>../../../../sdk/bullet\out\debug8\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+</Project>

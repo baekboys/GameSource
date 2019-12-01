@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+ 
+  <tutorial1
+fileName="tutorial1"
+gravity="200"
+time="30"
+ballType="0"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage2.mp3"
+    >
+  </tutorial1>
+
+  <tutorial2
+fileName="tutorial2"
+gravity="200"
+time="30"
+ballType="0"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage2.mp3"
+    >
+  </tutorial2>
+
+  <tutorial3
+fileName="tutorial3"
+gravity="200"
+time="60"
+ballType="1"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage2.mp3"
+    >
+  </tutorial3>
+
+  <map1
+fileName="stage1"
+gravity="200"
+time="60"
+ballType="0"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage1.mp3"
+    >
+  </map1>
+
+  <map2
+  fileName="stage2"
+  gravity="200"
+  time="70"
+  ballType="1"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage3.mp3"
+    >
+  </map2>
+  
+</root>

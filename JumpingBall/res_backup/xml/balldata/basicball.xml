@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+  <fParam
+    mass="1"
+    ccd="3"
+    linearDamping="0"
+    angularDamping="0"
+    friction="0.9"
+    restitution="0.4"
+    linearFactorX="1"
+    linearFactorY="0"
+    linearFactorZ="1"
+    angularFactorX="1"
+    angularFactorY="1"
+    angularFactorZ="0"
+    gravityX="0"
+    gravityY="0"
+    gravityZ="0"
+    centerOfMassOffsetX="0"
+    centerOfMassOffsetY="0"
+    centerOfMassOffsetZ="0"
+    ballSize="9"
+    jumpForce="100"
+	maxLinearVelocity="250"
+	maxAngularVelocity="20"
+    >
+  </fParam>
+
+  <cParam
+    textureFileName="texture/ball_basic.png"
+	boundSoundFileName="res/sound/bound_basic.mp3"
+	jumpSoundFileName="res/sound/jump_basic.mp3"
+    >
+  </cParam>
+
+</root>

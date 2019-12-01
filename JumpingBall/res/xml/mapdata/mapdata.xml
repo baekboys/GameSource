@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+
+<tutorial2
+fileName="tutorial2"
+gravity="200"
+time="30"
+ballType="0"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage2.mp3"
+    >
+  </tutorial2>
+
+  <tutorial3
+fileName="tutorial3"
+gravity="200"
+time="60"
+ballType="1"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage2.mp3"
+    >
+  </tutorial3>
+
+  <map1
+fileName="stage1"
+gravity="200"
+time="60"
+ballType="0"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage1.mp3"
+    >
+  </map1>
+  
+  <map2
+  fileName="stage2"
+  gravity="200"
+  time="70"
+  ballType="1"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage4.mp3"
+    >
+  </map2>
+
+<zerogravity
+fileName="zerogravity"
+gravity="200"
+time="100"
+ballType="0"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage1.mp3"
+    >
+  </<zerogravity>
+
+  <puzzle
+ fileName="puzzle"
+ gravity="200"
+ time="80"
+ ballType="3"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage3.mp3"
+    >
+  </puzzle>
+   
+  <xo
+fileName="xo"
+gravity="200"
+time="45"
+ballType="2"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage4.mp3"
+    >
+  </xo>
+  
+  <slowgravity
+fileName="slowgravity"
+gravity="30"
+time="60"
+ballType="4"
+backgroundColor_R="0"
+backgroundColor_G="0"
+backgroundColor_B="0"
+backgroundColor_A="255"
+bgmFileName="stage4.mp3"
+    >
+  </slowgravity>
+  
+ <jump
+fileName="jump"
+gravity="200"
+time="80"
+ballType="0"
+backgroundColor_R="255"
+backgroundColor_G="174"
+backgroundColor_B="201"
+backgroundColor_A="255"
+bgmFileName="stage4.mp3"
+    >
+  </jump>
+
+  <!--
+  -->
+  
+</root>
